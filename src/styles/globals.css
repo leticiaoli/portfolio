@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.containerFull{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.containerCenter{
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 16px;
+}
+
+.d-none{
+  display: none;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.d-block{
+  display: block;
+}

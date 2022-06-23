@@ -1,9 +1,16 @@
 import Home from '../templates/home'
 
+import ButtonMenu from "../components/ButtonMenu"
+import WrapperMenu from "../components/WrapperMenu"
+
 export default function index() {
   return (
     <Home>
-      <h1> Teste </h1>
+
+      <ButtonMenu />
+
+      <WrapperMenu />
+
     </Home>
   )
 }

@@ -1,12 +1,9 @@
-import React from 'react'
-import WrapperMenu from '../components/WrapperMenu'
+import React from "react";
 
-export default function Home({children}) {
+export default function Home({ children }) {
   return (
-    <>
-      <WrapperMenu />
-
+    <main>
       {children}
-    </>
-  )
+    </main>
+  );
 }
